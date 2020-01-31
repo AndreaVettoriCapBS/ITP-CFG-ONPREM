@@ -1,0 +1,27 @@
+{
+  "id": "eff2c43b-f5bf-43f1-bdea-049a42708bb3",
+  "name": "CFG Capgemini OnPrem",
+  "publisher": "Capgemini Italia S.p.A",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "Obiettivo: creazione di un sistema per consentire all’utente di codificare un nuovo articolo in base agli attributi dell’articolo stesso valorizzando i campi Nr. e Descrizione della tabella articolo.",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "./logo/capgeminilogo.png",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "14.0.0.0",
+  "application": "14.0.0.0",
+  "idRanges": [
+    {
+      "from": 18100605,
+      "to": 18100624
+    }
+  ],
+  "contextSensitiveHelpUrl": "https://CFG-Capgemini-OnPrem.com/help/",
+  "showMyCode": true,
+  "runtime": "3.0",
+  "features": [ "TranslationFile" ]
+}

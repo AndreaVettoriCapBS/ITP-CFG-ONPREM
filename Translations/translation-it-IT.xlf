@@ -1,0 +1,645 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="it-IT" original="CFG Capgemini OnPrem">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 1480824041 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Configurator Code</source>
+          <target>Configuratore codice articolo</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CFG Item Configurator Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1480824041 - Field 1030050045 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Procurement System</source>
+          <target>Sistema di rifornimento</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CFG Item Configurator Code - Field Procurement System - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1480824041 - Field 1030050045 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase,Prod. Order,Production BOM</source>
+          <target>Acquisto,Ordine prod.,DB Produzione</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CFG Item Configurator Code - Field Procurement System - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Table 1480824041 - Field 3070320983 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Field Name</source>
+          <target>Nome campo</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CFG Item Configurator Code - Field Field Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1480824041 - Field 3070320983 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No.,Description,Value</source>
+          <target>Nr.,Descrizione,Valore</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CFG Item Configurator Code - Field Field Name - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Table 1480824041 - Field 4262798066 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Character No.</source>
+          <target>Carattere nr.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CFG Item Configurator Code - Field Character No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1480824041 - Field 3531868071 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Field No.</source>
+          <target>Nr. campo</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CFG Item Configurator Code - Field Field No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1480824041 - Field 1884737638 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Field</source>
+          <target>Campo</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CFG Item Configurator Code - Field Field - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1480824041 - Field 2138951928 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Field Character No.</source>
+          <target>Nr. carattere campo</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CFG Item Configurator Code - Field Field Character No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1480824041 - Field 264005049 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Table No. Relation</source>
+          <target>Nr. tabella relazionata</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CFG Item Configurator Code - Field Table No. Relation - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1480824041 - Field 190069285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Field No. Relation</source>
+          <target>Nr. campo relazionato</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CFG Item Configurator Code - Field Field No. Relation - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1480824041 - Field 3017471043 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Table No.</source>
+          <target>Nr. tabella</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CFG Item Configurator Code - Field Table No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1480824041 - Field 4017178240 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customed Relation</source>
+          <target>Relazione personalizzata</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CFG Item Configurator Code - Field Customed Relation - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1480824041 - Field 883711285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <target>Nr. movimento</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CFG Item Configurator Code - Field Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1480824041 - Field 855871608 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Insert Value</source>
+          <target>Inserisci valore</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CFG Item Configurator Code - Field Insert Value - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1480824041 - Field 1341471161 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Progressive</source>
+          <target>Progressivo</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CFG Item Configurator Code - Field Progressive - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1480824041 - Field 4079677382 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Field Type</source>
+          <target>Tipo campo</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CFG Item Configurator Code - Field Field Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1480824041 - Field 4079677382 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Field,Attribute</source>
+          <target>Campo,Attributo</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CFG Item Configurator Code - Field Field Type - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Table 1480824041 - NamedType 1667372912" size-unit="char" translate="yes" xml:space="preserve">
+          <source>"No." value has to be less then 20</source>
+          <target>Il campo "Nr." deve assumere un valore inferiore a 20</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CFG Item Configurator Code - NamedType txtErrorNr</note>
+        </trans-unit>
+        <trans-unit id="Table 74799634 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Creation</source>
+          <target>Creazione articolo</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CFG Item Creation - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 74799634 - Field 1624984172 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Category Item Code</source>
+          <target>Codice categoria articolo</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CFG Item Creation - Field Category Item Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 74799634 - Field 411531942 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Base Unit of Measure</source>
+          <target>Unità di misura base</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CFG Item Creation - Field Base Unit of Measure - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2427653885 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Lookup Table Configurator</source>
+          <target>Lookup tabella configuratore</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CFG Lookup Table Configurator - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2427653885 - Field 3017471043 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Table No.</source>
+          <target>Nr. tabella</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CFG Lookup Table Configurator - Field Table No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2427653885 - Field 3808951907 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Table Name</source>
+          <target>Nome tabella</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CFG Lookup Table Configurator - Field Table Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2427653885 - Field 3531868071 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Field No.</source>
+          <target>Nr. campo</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CFG Lookup Table Configurator - Field Field No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2427653885 - Field 3070320983 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Field Name</source>
+          <target>Nome campo</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CFG Lookup Table Configurator - Field Field Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2427653885 - Field 3680483713 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Table Relation No.</source>
+          <target>Nr. tabella relazionata</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CFG Lookup Table Configurator - Field Table Relation No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2427653885 - Field 1044270257 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Table Relation Name</source>
+          <target>Nome tabella</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CFG Lookup Table Configurator - Field Table Relation Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2427653885 - Field 776101485 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Field Relation No.</source>
+          <target>Nr. campo relazionato</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CFG Lookup Table Configurator - Field Field Relation No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2427653885 - Field 1243540461 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Field Relation Name</source>
+          <target>Nome campo relazionato</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CFG Lookup Table Configurator - Field Field Relation Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2427653885 - Field 696389717 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Condition</source>
+          <target>Condizione</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CFG Lookup Table Configurator - Field Condition - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2427653885 - Field 883711285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <target>Nr. movimento</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CFG Lookup Table Configurator - Field Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2427653885 - Field 2901750256 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Attribute</source>
+          <target>Attributo</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CFG Lookup Table Configurator - Field Attribute - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2427653885 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Relationed Tables</source>
+          <target>Gestione tabelle relazionate</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CFG Lookup Table Configurator - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2427653885 - Action 4207331517 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Table Relation Filters</source>
+          <target>Filtri relazione tabelle</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CFG Lookup Table Configurator - Action Table Relation Filters - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2427653885 - Action 220946527 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Relation Condition</source>
+          <target>Condizioni relazione</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CFG Lookup Table Configurator - Action Relation Condition - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4183050139 - Field 3017471043 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Table No.</source>
+          <target>Nr. tabella</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CFG Table Relation Filters - Field Table No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4183050139 - Field 3531868071 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Field No.</source>
+          <target>Nr. campo</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CFG Table Relation Filters - Field Field No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4183050139 - Field 342179383 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Filter Field No.</source>
+          <target>Filtro nr. campo</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CFG Table Relation Filters - Field Filter Field No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4183050139 - Field 4285612108 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Filter Type</source>
+          <target>Tipo filtro</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CFG Table Relation Filters - Field Filter Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4183050139 - Field 4285612108 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CONST,FILTER,FIELD</source>
+          <target>CONST,FILTER,FIELD</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CFG Table Relation Filters - Field Filter Type - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Table 4183050139 - Field 1484800333 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Filter Value</source>
+          <target>Valore filtro</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CFG Table Relation Filters - Field Filter Value - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4183050139 - Field 976425594 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Filter Value Field No.</source>
+          <target>Valore filtro nr. campo</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CFG Table Relation Filters - Field Filter Value Field No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4183050139 - Field 883711285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <target>Nr. movimento</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CFG Table Relation Filters - Field Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4183050139 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Table Relation Filters</source>
+          <target>Gestione tabelle relazionate</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CFG Table Relation Filters - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3192163289 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Configurator Condition Specifications</source>
+          <target>Gestione condizioni configuratore</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CFG Conf. Condition Specif. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3192163289 - Field 3017471043 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Table No.</source>
+          <target>Nr. tabella</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CFG Conf. Condition Specif. - Field Table No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3192163289 - Field 3531868071 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Field No.</source>
+          <target>Nr. campo</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CFG Conf. Condition Specif. - Field Field No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3192163289 - Field 883711285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <target>Nr. movimento</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CFG Conf. Condition Specif. - Field Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3192163289 - Field 342179383 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Filter Field No.</source>
+          <target>Filtro nr. campo</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CFG Conf. Condition Specif. - Field Filter Field No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3192163289 - Field 4285612108 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Filter Type</source>
+          <target>Tipo filtro</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CFG Conf. Condition Specif. - Field Filter Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3192163289 - Field 4285612108 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CONST,FILTER</source>
+          <target>CONST,FILTER</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CFG Conf. Condition Specif. - Field Filter Type - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Table 3192163289 - Field 1484800333 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Filter Value</source>
+          <target>Valore filtro</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CFG Conf. Condition Specif. - Field Filter Value - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1039895887 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Configurator Setup</source>
+          <target>Setup configuratore articolo</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CFG Item Configurator Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1039895887 - Field 1663593181 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Primary Key</source>
+          <target>Chiave primaria</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CFG Item Configurator Setup - Field Primary Key - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1039895887 - Field 3162363808 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase Serial No.</source>
+          <target>Nr. serie acquisto</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CFG Item Configurator Setup - Field Purchase Serial No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1039895887 - Field 3100206650 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prod. Order Serial No.</source>
+          <target>Nr. serie ordine produzione</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CFG Item Configurator Setup - Field Prod. Order Serial No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1039895887 - Field 2523437198 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prod. Item Tracking No.</source>
+          <target>Cod. tracciabilità articolo produzione</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CFG Item Configurator Setup - Field Prod. Item Tracking No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1039895887 - Field 4178966393 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purch. Item Tracking No.</source>
+          <target>Cod. tracciabilità articolo acquisto</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CFG Item Configurator Setup - Field Purch. Item Tracking No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1039895887 - Field 3986272740 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prod. BOM Serial No.</source>
+          <target>Nr. serie DB produzione</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CFG Item Configurator Setup - Field Prod. BOM Serial No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1039895887 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Configurator Setup</source>
+          <target>Setup configuratore articolo</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CFG Item Configurator Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2122950686 - NamedType 649690644" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The value of the first "No. Character" has to be 1.</source>
+          <target>Attenzione il primo record in setup deve avere "Nr. carattere" = 1.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CFG Item Attributes Conf. - NamedType txtCharacterNo</note>
+        </trans-unit>
+        <trans-unit id="Page 872350126 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Configuration</source>
+          <target>Configuratore articolo</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CFG Item Configuration Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 872350126 - Control 3090661100 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Filter</source>
+          <target>Filtri</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CFG Item Configuration Code - Control Filter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 872350126 - Control 3063887589 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Procurement System Filter</source>
+          <target>Filtro sistema di rifornimento</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CFG Item Configuration Code - Control Procurement System Filter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 872350126 - Control 3063887589 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase,Prod. Order,Production BOM</source>
+          <target>Acquisto,Ordine prod.,DB Produzione</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CFG Item Configuration Code - Control Procurement System Filter - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Page 872350126 - Action 4167997568 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item</source>
+          <target>Articolo</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CFG Item Configuration Code - Action Item Creation - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 872350126 - Action 3276313895 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Creation</source>
+          <target>Creazione articolo</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CFG Item Configuration Code - Action Item - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 872350126 - Action 2069278830 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create Purchase Item</source>
+          <target>Crea articolo di acquisto</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CFG Item Configuration Code - Action Create Purchase Item - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 872350126 - Action 2435637830 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create Production Item</source>
+          <target>Crea articolo di produzione</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CFG Item Configuration Code - Action Create Production Item - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 872350126 - Action 3803163185 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create Production BOM</source>
+          <target>Crea DB produzione</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CFG Item Configuration Code - Action Create Production BOM - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 872350126 - NamedType 296518869" size-unit="char" translate="yes" xml:space="preserve">
+          <source>"Relationed Field No." has already valued</source>
+          <target>"Nr. campo relazionato" già valorizzato</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CFG Item Configuration Code - NamedType txtRelError</note>
+        </trans-unit>
+        <trans-unit id="Page 872350126 - NamedType 427795583" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Configurator</source>
+          <target>Configuratore articolo</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CFG Item Configuration Code - NamedType PageDescription</note>
+        </trans-unit>
+        <trans-unit id="Page 4026529481 - Control 103915345 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Table No.</source>
+          <target>Nr. tabella</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CFG Field Virtual Table - Control TableNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4026529481 - Control 4200184881 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No.</source>
+          <target>Nr.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CFG Field Virtual Table - Control No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4026529481 - Control 730832363 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Table Name</source>
+          <target>Nome tabella</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CFG Field Virtual Table - Control TableName - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4026529481 - Control 166597695 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Field Name</source>
+          <target>Nome campo</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CFG Field Virtual Table - Control FieldName - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4026529481 - Control 1878130204 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Type</source>
+          <target>Tipo</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CFG Field Virtual Table - Control Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4026529481 - Control 1954480041 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Len</source>
+          <target>Lunghezza</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CFG Field Virtual Table - Control Len - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4026529481 - Control 3454070650 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Class</source>
+          <target>Classe</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CFG Field Virtual Table - Control Class - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4026529481 - Control 2891538263 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Enabled</source>
+          <target>Abilitato</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CFG Field Virtual Table - Control Enabled - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4026529481 - Control 2463291169 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Type Name</source>
+          <target>Nome tipo</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CFG Field Virtual Table - Control Type Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4026529481 - Control 823559016 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&lt;Field Caption&gt;</source>
+          <target>Caption campo</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CFG Field Virtual Table - Control Field Caption - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4026529481 - Control 3012270107 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Relation Table No.</source>
+          <target>Nr. tabella relazionata</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CFG Field Virtual Table - Control RelationTableNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4026529481 - Control 2168500159 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Relation Field No.</source>
+          <target>Nr. campo relazionato</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CFG Field Virtual Table - Control RelationFieldNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 708963657 - Control 1085746399 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Object Type</source>
+          <target>Tipo oggetto</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CFG Object - Control Object Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 708963657 - Control 3711240756 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Object ID</source>
+          <target>ID oggetto</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CFG Object - Control Object ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 708963657 - Control 1418569422 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Object Name</source>
+          <target>Nome oggetto</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CFG Object - Control Object Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1076891048 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Condition Specification</source>
+          <target>Gestione condizioni configuratore</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CFG Condition Specification - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2862266149 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create Item</source>
+          <target>Crea articolo</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CFG Create Item - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2862266149 - Control 476475349 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <target>Generale</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CFG Create Item - Control Generale - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2862266149 - Control 1487222247 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Category</source>
+          <target>Categoria articolo</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CFG Create Item - Control Item Category - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2862266149 - Control 411531942 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Base Unit of Measure</source>
+          <target>Unità di misura base</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CFG Create Item - Control Base Unit of Measure - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2862266149 - Control 1030050045 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Procurement System</source>
+          <target>Sistema di rifornimento</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CFG Create Item - Control Procurement System - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2862266149 - Control 1030050045 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase,Prod. Order,Production BOM</source>
+          <target>Acquisto,Ordine prod.,DB Produzione</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CFG Create Item - Control Procurement System - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Page 2862266149 - Control 1156389336 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Code Generation Fields</source>
+          <target>Campi generazione codice</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CFG Create Item - Control Campi Generazione Codice - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2862266149 - Control 2933216754 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description Generation Fields</source>
+          <target>Campi generazione descrizione</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CFG Create Item - Control Campi Generazione Descrizione - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2862266149 - Control 3134369999 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Value Fields</source>
+          <target>Campi valore</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CFG Create Item - Control Campi Valore - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2862266149 - Action 1410115443 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create Item</source>
+          <target>Genera articolo</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CFG Create Item - Action Create Item - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2862266149 - Action 3803163185 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create Production BOM</source>
+          <target>Genera DB produzione</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CFG Create Item - Action Create Production BOM - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2862266149 - NamedType 902268192" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Created new Item No.: %1 </source>
+          <target>Creata nuova anagrafica articolo con codice: %1 </target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CFG Create Item - NamedType txtCreate</note>
+        </trans-unit>
+        <trans-unit id="Page 2862266149 - NamedType 649690644" size-unit="char" translate="yes" xml:space="preserve">
+          <source>"Character No." of field %1 has not a value</source>
+          <target>"Nr. carattere" non valorizzato per campo: %1</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CFG Create Item - NamedType txtCharacterNo</note>
+        </trans-unit>
+        <trans-unit id="Page 2862266149 - NamedType 1478449580" size-unit="char" translate="yes" xml:space="preserve">
+          <source>"Description" is higher than 50 chars, the string will be cut to the 50th digit.</source>
+          <target>La "Descrizione" è maggiore di 50 caratteri, la stringa verrà troncata al 50° digit</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CFG Create Item - NamedType txtCOPYSTR</note>
+        </trans-unit>
+        <trans-unit id="Page 2862266149 - NamedType 131872261" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The items with the inserted attributes already exists. Do you want to continue?</source>
+          <target>L'articolo con gli attributi inseriti esiste già. Vuoi continuare?</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CFG Create Item - NamedType txtItemCheck</note>
+        </trans-unit>
+        <trans-unit id="Page 2862266149 - NamedType 2783581920" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Created new "Production BOM": %1</source>
+          <target>Creata nuova "DB Produzione": %1</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CFG Create Item - NamedType txtCreateBOM</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
