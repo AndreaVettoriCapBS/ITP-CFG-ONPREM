@@ -29,10 +29,29 @@ Page 18100605 "CFG Item Configuration Code"//18100605
                         SetCurrentkey("Field Name", "Character No.");
                         FilterGroup(20);
                         SetRange("Procurement System", optProcSyst);
+                        SetRange("Item Type", optItemType);
                         FilterGroup(0);
                         CurrPage.Update(false);
                     end;
 
+                }
+
+                field("Item Type Filter"; optItemType)
+                {
+                    ApplicationArea = Basic;
+                    Caption = 'Item Type Filter';
+                    OptionCaption = ' ,Master,Finished Product';
+
+                    trigger OnValidate()
+                    begin
+                        Reset;
+                        SetCurrentkey("Field Name", "Character No.");
+                        FilterGroup(20);
+                        SetRange("Procurement System", optProcSyst);
+                        SetRange("Item Type", optItemType);
+                        FilterGroup(0);
+                        CurrPage.Update(false);
+                    end;
                 }
             }
             //group(Righe)
@@ -49,6 +68,12 @@ Page 18100605 "CFG Item Configuration Code"//18100605
                 {
                     ApplicationArea = Basic;
                 }
+
+                field("Item Type"; "Item Type")
+                {
+                    ApplicationArea = Basic;
+                }
+
                 field("Field Name"; "Field Name")
                 {
                     ApplicationArea = Basic;
@@ -59,10 +84,10 @@ Page 18100605 "CFG Item Configuration Code"//18100605
                         "Field No." := 0;
 
                         if ("Procurement System" = "procurement system"::Purchase) then
-                            "Character No." := CheckandCreateCharacterNo("Field Name", true)
+                            "Character No." := CheckandCreateCharacterNo("Field Name", true, "Item Type")
                         else
                             if ("Procurement System" = "procurement system"::"Prod. Order") then
-                                "Character No." := CheckandCreateCharacterNo("Field Name", false);
+                                "Character No." := CheckandCreateCharacterNo("Field Name", false, "Item Type");
 
                         rcLookup.Init;
                         rcLookup."Table No." := "Table No.";
@@ -151,7 +176,7 @@ Page 18100605 "CFG Item Configuration Code"//18100605
 
                         trigger OnAction()
                         begin
-                            pgCreateItem.SetProcSystem(true);
+                            pgCreateItem.SetProcSystem(true, optItemType);
                             pgCreateItem.Run;
                         end;
                     }
@@ -167,7 +192,7 @@ Page 18100605 "CFG Item Configuration Code"//18100605
 
                         trigger OnAction()
                         begin
-                            pgCreateItem.SetProcSystem(false);
+                            pgCreateItem.SetProcSystem(false, optItemType);
                             pgCreateItem.Run;
                         end;
                     }
@@ -183,8 +208,8 @@ Page 18100605 "CFG Item Configuration Code"//18100605
 
                         trigger OnAction()
                         begin
-                            pgCreateItem.SetProcSystem(false);
-                            pgCreateItem.IsProductionBOM;
+                            pgCreateItem.SetProcSystem(false, optItemType);
+                            pgCreateItem.IsProductionBOM(optItemType);
                             pgCreateItem.Run;
                         end;
                     }
@@ -196,10 +221,10 @@ Page 18100605 "CFG Item Configuration Code"//18100605
     trigger OnInsertRecord(BelowxRec: Boolean): Boolean
     begin
         if ("Procurement System" = "procurement system"::Purchase) then
-            "Character No." := CheckandCreateCharacterNo("Field Name", true)
+            "Character No." := CheckandCreateCharacterNo("Field Name", true, "Item Type")
         else
             if ("Procurement System" = "procurement system"::"Prod. Order") then
-                "Character No." := CheckandCreateCharacterNo("Field Name", false);
+                "Character No." := CheckandCreateCharacterNo("Field Name", false, "Item Type");
     end;
 
     trigger OnNewRecord(BelowxRec: Boolean)
@@ -210,10 +235,12 @@ Page 18100605 "CFG Item Configuration Code"//18100605
     trigger OnOpenPage()
     begin
         optProcSyst := Optprocsyst::Purchase;
+        optItemType := optItemType::" ";
         Reset;
         SetCurrentkey("Field Name", "Character No.");
         FilterGroup(20);
         SetRange("Procurement System", Optprocsyst::Purchase);
+        SetRange("Item Type", optItemType::" ");
         FilterGroup(0);
     end;
 
@@ -231,6 +258,7 @@ Page 18100605 "CFG Item Configuration Code"//18100605
         pgCreateItem: Page "CFG Create Item";
         cdu50000: Codeunit "CFG Item Attributes Conf.";
         optProcSyst: Option Purchase,"Prod. Order","Production BOM";
+        optItemType: Option " ","Master","Finished Product";
         PageDescription: Label 'Item Configurator';
 
 }

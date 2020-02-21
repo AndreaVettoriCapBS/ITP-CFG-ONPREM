@@ -10,7 +10,14 @@
   "help": "",
   "url": "",
   "logo": "./logo/capgeminilogo.png",
-  "dependencies": [],
+  "dependencies": [
+    {
+      "appId": "60ba17b8-53a1-408f-9453-7add6c1e4002",
+      "name": "ItalPack-Base",
+      "publisher": "Capgemini Italia S.p.A.",
+      "version": "1.0.0.1"
+    }
+  ],
   "screenshots": [],
   "platform": "14.0.0.0",
   "application": "14.0.0.0",

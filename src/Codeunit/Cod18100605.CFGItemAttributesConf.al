@@ -18,6 +18,7 @@ Codeunit 18100605 "CFG Item Attributes Conf."//18100605
         rcField: Record "Field";
         FieldNameArray: array[100] of Text;
         BlProcSyst: Boolean;
+        optItemType: Integer;
         indexAux: Integer;
         "Count": Integer;
         CountValue: Integer;
@@ -46,7 +47,7 @@ Codeunit 18100605 "CFG Item Attributes Conf."//18100605
                 else
                     ItemConfSetup.SetRange("Procurement System", ItemConfSetup."procurement system"::"Prod. Order");
             end;
-
+        ItemConfSetup.SetRange("Item Type", optItemType);
         Dim := ItemConfSetup.Count;
         ItemConfSetup.SetCurrentkey("Field Name", "Character No.");
         indexAux := 1;
@@ -134,14 +135,16 @@ Codeunit 18100605 "CFG Item Attributes Conf."//18100605
         end;
     end;
 
-    procedure SetProcSystem(IBoolean: Boolean)
+    procedure SetProcSystem(IBoolean: Boolean; IoptType: Integer)
     begin
         BlProcSyst := IBoolean;
+        optItemType := IoptType;
     end;
 
-    procedure SetBOM()
+    procedure SetBOM(IoptType: Integer)
     begin
         IsBOM := true;
+        optItemType := IoptType;
     end;
 }
 

@@ -10,8 +10,8 @@ Page 18100612 "CFG Create Item"//18100612
             group(Generale)
             {
                 Caption = 'General';
-                Visible = not IsBOM;
-                /*field("Item Category"; ItemCat)
+                /*Visible = not IsBOM;
+                field("Item Category"; ItemCat)
                 {
                     ApplicationArea = Basic;
                     Caption = 'Item Category';
@@ -57,6 +57,14 @@ Page 18100612 "CFG Create Item"//18100612
                     Editable = false;
                     OptionCaption = 'Purchase,Prod. Order,Production BOM';
                     Visible = not IsBOM;
+                }
+
+                field("Item Type"; optItemType)
+                {
+                    ApplicationArea = Basic;
+                    Caption = 'Item Type';
+                    Editable = false;
+                    OptionCaption = ' ,Master,Finished Product';
                 }
             }
             group("Campi Generazione Codice")
@@ -1579,6 +1587,13 @@ Page 18100612 "CFG Create Item"//18100612
                         Vars[92] := LookUpConfig(92);
                     end;
                 }
+                field("Finished Product"; FinishedProduct)
+                {
+                    ApplicationArea = Basic;
+                    Caption = 'Finished Product';
+                    Visible = IsBOM;
+                    TableRelation = Item;
+                }
             }
         }
     }
@@ -1602,6 +1617,8 @@ Page 18100612 "CFG Create Item"//18100612
                     ItemAttributeValueMapping: Record "Item Attribute Value Mapping";
                     ItemAttributeValue: Record "Item Attribute Value";
                     ItemAttribute: Record "Item Attribute";
+                    Item: record Item;
+                    ItemMaster: record Item;
                 begin
                     tmpItem.reset;
                     tmpItem.DeleteAll();
@@ -2179,6 +2196,10 @@ Page 18100612 "CFG Create Item"//18100612
 
                         FRef := RRef.Field(5419);
                         FRef.Validate(optProcSyst);
+
+                        FRef := RRef.Field(50010);
+                        FRef.Validate(optItemType);
+
                         j := 72;
                         for i := 1 to Dim3 do begin
                             if (FieldNameArray[i] = 'Value') or (FieldNameArray[i] = 'Valore') then begin
@@ -2245,6 +2266,47 @@ Page 18100612 "CFG Create Item"//18100612
 
                         RRef.Modify;
                         RRef.Close;
+
+                        if item.GET(ItemCode) then
+                            if ItemMaster.get(item."Master Item Code") then begin
+                                if item."Base Unit of Measure" = '' then
+                                    item.validate("Base Unit of Measure", ItemMaster."Base Unit of Measure");
+                                if item."Inventory Posting Group" = '' then
+                                    item.validate("Inventory Posting Group", ItemMaster."Inventory Posting Group");
+                                item.validate("Costing Method", ItemMaster."Costing Method");
+                                item.validate("Gross Weight", ItemMaster."Gross Weight");
+                                item.validate("Net Weight", ItemMaster."Net Weight");
+                                if item."Tariff No." = '' then
+                                    item.validate("Tariff No.", ItemMaster."Tariff No.");
+                                if item."Gen. Prod. Posting Group" = '' then
+                                    item.validate("Gen. Prod. Posting Group", ItemMaster."Gen. Prod. Posting Group");
+                                item.validate("Picture", ItemMaster."Picture");
+                                if item."VAT Prod. Posting Group" = '' then
+                                    item.validate("VAT Prod. Posting Group", ItemMaster."VAT Prod. Posting Group");
+                                if item."Global Dimension 1 Code" = '' then
+                                    item.validate("Global Dimension 1 Code", ItemMaster."Global Dimension 1 Code");
+                                if item."Global Dimension 2 Code" = '' then
+                                    item.validate("Global Dimension 2 Code", ItemMaster."Global Dimension 2 Code");
+                                if item."Sales Unit of Measure" = '' then
+                                    item.validate("Sales Unit of Measure", ItemMaster."Sales Unit of Measure");
+                                if item."Purch. Unit of Measure" = '' then
+                                    item.validate("Purch. Unit of Measure", ItemMaster."Purch. Unit of Measure");
+                                item.validate("Reordering Policy", ItemMaster."Reordering Policy");
+                                item.validate("Manufacturing Policy", ItemMaster."Manufacturing Policy");
+                                if item."Item Category Code" = '' then
+                                    item.validate("Item Category Code", ItemMaster."Item Category Code");
+                                if item."Item Tracking Code" = '' then
+                                    item.validate("Item Tracking Code", ItemMaster."Item Tracking Code");
+                                item."repeat" := ItemMaster."repeat";
+                                item.yield := ItemMaster.yield;
+                                if item."Paper Code" = '' then
+                                    item."Paper Code" := ItemMaster."Paper Code";
+                                if item."CONAI Material Type" = '' then
+                                    item.validate("CONAI Material Type", ItemMaster."CONAI Material Type");
+                                item.validate("CONAI Weight", ItemMaster."CONAI Weight");
+                                item.Modify(true);
+                            end;
+
                         Message(txtCreate, ItemCode);
 
                         clear(Vars);
@@ -2262,6 +2324,10 @@ Page 18100612 "CFG Create Item"//18100612
                 Visible = IsBOM;
 
                 trigger OnAction()
+                var
+                    ProductionBOMLine: record "Production BOM Line";
+                    Item: record Item;
+                    MasterItem: record Item;
                 begin
 
                     SumDim := Dim1 + Dim2 - 20;
@@ -2313,8 +2379,10 @@ Page 18100612 "CFG Create Item"//18100612
                     FRef := RRef.Field(40);
                     FRef.Validate(Today);
 
-                    FRef := RRef.Field(21);
-                    FRef.Validate('KG');
+                    if Item.Get(FinishedProduct) then begin
+                        FRef := RRef.Field(21);
+                        FRef.Validate(Item."Base Unit of Measure");
+                    end;
 
                     RRef.Insert;
 
@@ -2332,9 +2400,29 @@ Page 18100612 "CFG Create Item"//18100612
 
                     RRef.Modify;
                     RRef.Close;
+
+                    if Item.Get(FinishedProduct) then begin
+                        if MasterItem.get(Item."Master Item Code") then begin
+                            ProductionBOMLine.init;
+                            ProductionBOMLine.Validate("Production BOM No.", ItemCode);
+                            ProductionBOMLine.Validate("Line No.", 10000);
+                            ProductionBOMLine.insert;
+                            ProductionBOMLine.Validate(Type, ProductionBOMLine.Type::Item);
+                            ProductionBOMLine.Validate("No.", MasterItem."Paper Code");
+                            if MasterItem.Yield <> 0 then
+                                ProductionBOMLine.Validate("Quantity per", MasterItem."Repeat" / MasterItem.Yield);
+                            ProductionBOMLine.Validate(Yield, MasterItem.Yield);
+                            ProductionBOMLine.Validate("Repeat", MasterItem."Repeat");
+                            ProductionBOMLine.Modify(TRUE);
+                        end;
+                        item.Validate("Production BOM No.", ItemCode);
+                        item.Modify(true);
+                    end;
+
                     Message(txtCreateBOM, ItemCode);
 
                     clear(Vars);
+                    clear(FinishedProduct);
                 end;
             }
         }
@@ -2472,10 +2560,12 @@ Page 18100612 "CFG Create Item"//18100612
         rcUnitOfMesure: Record "Unit of Measure";
         pgUnitOfMesure: Page "Units of Measure";
         optProcSyst: Option Purchase,"Prod. Order","Production BOM";
+        optItemType: Option " ","Master","Finished Product";
         FieldNameArray: array[100] of Text;
         EntryNoArray: array[100] of Integer;
         CompressVarAux: array[92] of Code[30];
         Vars: array[92] of Code[30];
+        FinishedProduct: code[20];
         Int: Integer;
         CodeGenerationArray: array[20] of Code[20];
         AssignValue: array[100] of Boolean;
@@ -2710,9 +2800,9 @@ Page 18100612 "CFG Create Item"//18100612
     local procedure InsertCaption()
     begin
         if IsBOM then
-            Gcdu50000.SetBOM
+            Gcdu50000.SetBOM(optItemType)
         else
-            Gcdu50000.SetProcSystem(BlPurchase);
+            Gcdu50000.SetProcSystem(BlPurchase, optItemType);
         Gcdu50000.GenerateConfiguratorArray(RecTmpAux);
         Gcdu50000.SaveArray(GArray, FieldNameArray, EntryNoArray, AssignValue, ProgressiveArray, AttributeArray, OptionArray);
 
@@ -3404,6 +3494,7 @@ Page 18100612 "CFG Create Item"//18100612
             ItemConfSetup.SetRange("Procurement System", ItemConfSetup."procurement system"::"Production BOM")
         else
             ItemConfSetup.SetRange("Procurement System", optProcSyst);
+        ItemConfSetup.SetRange("Item Type", optItemType);
         Int := GArray[i];
         ItemConfSetup.SetRange(ItemConfSetup."Field No.", Int);
         ItemConfSetup.SetRange(ItemConfSetup."Entry No.", EntryNoArray[i]);
@@ -3478,6 +3569,7 @@ Page 18100612 "CFG Create Item"//18100612
             ItemConfSetup.SetRange("Procurement System", ItemConfSetup."procurement system"::"Production BOM")
         else
             ItemConfSetup.SetRange("Procurement System", optProcSyst);
+        ItemConfSetup.SetRange("Item Type", optItemType);
         DescriptionGenerationArray[j] := Vars[j];
     end;
 
@@ -3716,9 +3808,10 @@ Page 18100612 "CFG Create Item"//18100612
     begin
     end;
 
-    procedure SetProcSystem(IBoolean: Boolean)
+    procedure SetProcSystem(IBoolean: Boolean; IoptItemType: Integer)
     begin
         BlPurchase := IBoolean;
+        optItemType := IoptItemType;
     end;
 
     procedure AssistEdit(Iindex: Integer; BlPurch: Boolean): Boolean
@@ -3747,9 +3840,10 @@ Page 18100612 "CFG Create Item"//18100612
         end;
     end;
 
-    procedure IsProductionBOM()
+    procedure IsProductionBOM(IoptItemType: Integer)
     begin
         IsBOM := true;
+        optItemType := IoptItemType;
     end;
 }
 

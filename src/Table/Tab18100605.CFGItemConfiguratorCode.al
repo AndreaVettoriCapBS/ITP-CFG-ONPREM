@@ -41,6 +41,7 @@ Table 18100605 "CFG Item Configurator Code"//18100605
                             rcFields.SetRange(TableNo, Database::item);
                             rcFields.SetFilter(rcFields.Type, '%1 | %2', rcFields.Type::Code, rcFields.Type::Text);
                             rcFields.SetRange("Field Caption", "Field");
+                            rcFields.SetRange(Class, rcFields.Class::Normal);
                             rcFields.FindFirst;
 
                             "Field No." := rcFields."No.";
@@ -106,6 +107,7 @@ Table 18100605 "CFG Item Configurator Code"//18100605
                             rcFields.FilterGroup(2);
                             rcFields.SetRange(TableNo, Database::Item);
                             rcFields.SetFilter(rcFields.Type, '%1 | %2 | %3', rcFields.Type::Code, rcFields.Type::Text, rcFields.Type::Option);
+                            rcFields.SetRange(Class, rcFields.Class::Normal);
                             rcFields.FilterGroup(0);
                             pgFields.SetTableview(rcFields);
                             pgFields.SetRecord(rcFields);
@@ -221,11 +223,19 @@ Table 18100605 "CFG Item Configurator Code"//18100605
                 end;
             end;
         }
+        field(15; "Item Type"; Option)
+        {
+            Caption = 'Item Type';
+            DataClassification = ToBeClassified;
+            OptionCaption = ' ,Master,Finished Product';
+            OptionMembers = " ",Master,"Finished Product";
+        }
+
     }
 
     keys
     {
-        key(Key1; "Table No.", "Field Name", "Field No.", "Entry No.", "Procurement System")
+        key(Key1; "Table No.", "Field Name", "Field No.", "Entry No.", "Procurement System", "Item Type")
         {
         }
         key(Key2; "Field Name", "Character No.")
@@ -255,9 +265,8 @@ Table 18100605 "CFG Item Configurator Code"//18100605
         RcConditions: Record "CFG Conf. Condition Specif.";
         EntryNo: Integer;
         rcItemConfiguratorCodeAux: Record "CFG Item Configurator Code";
-        ProcSystem: Option Purchase,"Prod. Order";
 
-    procedure CheckandCreateCharacterNo(PFieldName: Option; PPurchaseBoolean: Boolean) i: Integer
+    procedure CheckandCreateCharacterNo(PFieldName: Option; PPurchaseBoolean: Boolean; PItemType: Integer) i: Integer
     var
         LRcSetupAux: Record "CFG Item Configurator Code";
     begin
@@ -269,6 +278,7 @@ Table 18100605 "CFG Item Configurator Code"//18100605
             LRcSetupAux.SetRange("Procurement System", LRcSetupAux."procurement system"::Purchase);
         if (PPurchaseBoolean = false) then
             LRcSetupAux.SetRange("Procurement System", LRcSetupAux."procurement system"::"Prod. Order");
+        LRcSetupAux.SetRange("Item Type", PItemType);
         if LRcSetupAux.FindLast then
             i := LRcSetupAux."Character No." + 1;
         if (i > 20) and ((Format("Field Name") = 'No.') or (Format("Field Name") = 'Nr.')) then

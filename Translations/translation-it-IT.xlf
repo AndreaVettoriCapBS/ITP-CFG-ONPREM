@@ -111,6 +111,18 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table CFG Item Configurator Code - Field Field Type - Property OptionCaption</note>
         </trans-unit>
+        <trans-unit id="Table 1480824041 - Field 4093180191 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Type</source>
+          <target>Tipo articolo</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CFG Item Configurator Code - Field Item Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1480824041 - Field 4093180191 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source> ,Master,Finished Product</source>
+          <target> ,Master,Prodotto finito</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CFG Item Configurator Code - Field Item Type - Property OptionCaption</note>
+        </trans-unit>
         <trans-unit id="Table 1480824041 - NamedType 1667372912" size-unit="char" translate="yes" xml:space="preserve">
           <source>"No." value has to be less then 20</source>
           <target>Il campo "Nr." deve assumere un valore inferiore a 20</target>
@@ -405,6 +417,18 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page CFG Item Configuration Code - Control Procurement System Filter - Property OptionCaption</note>
         </trans-unit>
+        <trans-unit id="Page 872350126 - Control 2767790423 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Type Filter</source>
+          <target>Filtro tipo articolo</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CFG Item Configuration Code - Control Item Type Filter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 872350126 - Control 2767790423 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source> ,Master,Finished Product</source>
+          <target> ,Master,Prodotto finito</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CFG Item Configuration Code - Control Item Type Filter - Property OptionCaption</note>
+        </trans-unit>
         <trans-unit id="Page 872350126 - Action 4167997568 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Item</source>
           <target>Articolo</target>
@@ -555,18 +579,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page CFG Create Item - Control Generale - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 2862266149 - Control 1487222247 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Item Category</source>
-          <target>Categoria articolo</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page CFG Create Item - Control Item Category - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 2862266149 - Control 411531942 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Base Unit of Measure</source>
-          <target>Unità di misura base</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page CFG Create Item - Control Base Unit of Measure - Property Caption</note>
-        </trans-unit>
         <trans-unit id="Page 2862266149 - Control 1030050045 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Procurement System</source>
           <target>Sistema di rifornimento</target>
@@ -578,6 +590,18 @@
           <target>Acquisto,Ordine prod.,DB Produzione</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page CFG Create Item - Control Procurement System - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Page 2862266149 - Control 4093180191 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Type</source>
+          <target>Tipo articolo</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CFG Create Item - Control Item Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2862266149 - Control 4093180191 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source> ,Master,Finished Product</source>
+          <target> ,Master,Prodotto finito</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CFG Create Item - Control Item Type - Property OptionCaption</note>
         </trans-unit>
         <trans-unit id="Page 2862266149 - Control 1156389336 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Code Generation Fields</source>
@@ -596,6 +620,12 @@
           <target>Campi valore</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page CFG Create Item - Control Campi Valore - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2862266149 - Control 3141492171 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Finished Product</source>
+          <target>Prodotto finito</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CFG Create Item - Control Finished Product - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2862266149 - Action 1410115443 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Create Item</source>
